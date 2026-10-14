@@ -1,0 +1,44 @@
+feature,area,priority,original,clone,notes
+Project list with thumbnails and open/delete,projects,must,yes,no,
+Create a project with aspect ratio resolution and frame rate,projects,must,yes,no,details of the creation screen to verify on own account
+Add a vector shape layer,layers,must,yes,no,
+Add a text layer,layers,must,yes,no,
+Add an image layer,layers,must,yes,no,
+Add a video layer,layers,must,yes,no,
+Add an audio layer,layers,must,yes,no,
+Move scale and rotate a layer on the preview canvas,editor,must,yes,no,
+Timeline with layer bars and a playhead,timeline,must,yes,no,
+Trim and move a layer in time,timeline,must,yes,no,how exactly to verify on own account
+Preview playback with play and pause,editor,must,yes,no,
+Keyframes on position scale rotation and opacity,animation,must,yes,no,original keyframes every setting including color
+Export MP4 with resolution frame rate and quality settings,export,must,yes,no,original also has bitrate
+Easing presets (ease in out and in-out),animation,should,yes,no,
+Custom easing curve editor with draggable handles,animation,should,yes,no,
+Keyframes on color and other properties,animation,should,yes,no,
+Solid and gradient fills,styling,should,yes,no,
+Stroke and shadow,styling,should,yes,no,
+Group layers,layers,should,yes,no,
+Masks,layers,should,yes,no,
+Layer parenting,layers,should,yes,no,one parent per child and chains allowed
+Copy and paste layers or their styles,editor,should,yes,no,
+Copy and paste a curve between keyframe pairs,animation,should,yes,no,
+Preview pan and zoom with two-finger gestures,editor,should,yes,no,gestures only work with no layer selected
+Import custom fonts,layers,should,yes,no,
+A few basic effects (brightness and contrast and similar),effects,should,yes,no,only a handful in this slice
+Overshoot on easing curves,animation,could,yes,no,
+Advanced easing types (bounce elastic cyclic random steps),animation,could,yes,no,
+Null objects,layers,could,yes,no,invisible parents for animating several layers
+Parenting helper modes (locked and weighted),layers,could,yes,no,
+Bookmarks on the timeline,timeline,could,yes,no,details unknown
+Extract audio from a video layer,layers,could,yes,no,
+Save a group as a reusable Element,elements,could,yes,no,linked editing across projects
+Export GIF and PNG sequence and still images,export,could,yes,no,
+Export HEVC video,export,could,yes,no,
+Camera objects (pan zoom focus blur fog),animation,could,yes,no,
+Velocity-based motion blur,effects,could,yes,no,
+Character joint rigging,animation,could,yes,no,
+Full effects library (100 to 160 effects),effects,could,yes,skip,too large for this slice
+Membership tiers and watermark,business,must,yes,skip,not needed for personal use
+Alight link and QR sharing and cloud,sharing,could,yes,skip,their hosted service
+Premade elements and sample projects,content,could,yes,skip,their content
+Ads,business,could,yes,skip,
